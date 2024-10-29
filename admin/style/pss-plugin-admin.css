@@ -1,0 +1,400 @@
+ 
+/* Variables */
+:root {
+    --pss-plugin-active: rgba(0,79,188,1);
+    --pss-plugin-error: rgba(255,62,3,1);
+    --pss-plugin-disabled: #b4b3b3 ;
+    --pss-plugin-warning: #a79d0e;
+    --pss-plugin-box-shadow: 0px 3px 6px rgba(72, 72, 72, 0.72);
+    --pss-plugin-font-higlight: 'Montserrat-Local, Arial';
+    --pss-plugin-font-text: 'Open Sans-Local, Arial';
+}
+#pss-plugin-admin-area {
+    background: fixed url('pss-plugin-admin-bg.png') no-repeat;
+    background-size: cover; 
+    margin: 0;
+    min-height: 100vh;
+}
+/* Slogan */
+#pss-plugin-admin-area .pss-plugin-slogan-wrapper {
+    width: 100%;
+}
+#pss-plugin-admin-area .pss-plugin-slogan-wrapper .pss-plugin-slogan {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: var(--pss-plugin-headlines);
+    margin-bottom: 42px;
+}
+#pss-plugin-admin-area .pss-plugin-slogan-wrapper .pss-plugin-slogan img {
+    width: 160px;
+    margin-right: 24px;
+}
+/* Banner */
+#pss-plugin-admin-area .pss-hanapaena-banner-wrapper {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    text-align: left;
+    width: max-content;
+    background-color: #cad3e445;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
+    color: black;
+}
+#pss-plugin-admin-area .pss-hanapaena-banner-wrapper .pss-hanapaena-banner img {
+    width: 240px;
+}
+/* Icons */
+#pss-plugin-admin-area .pss-plugin-admin-icon {
+    margin-left: 42px;
+    position: relative;
+    margin-bottom: 24px;
+}
+#pss-plugin-admin-area .pss-plugin-admin-icon::before {
+    width: 42px;
+    position: absolute;
+    left: -50px;
+    top: -12px;
+}
+/* Admin code outbut */
+#pss-plugin-admin-area code {
+    background: transparent;
+}
+/* Admin area table */
+#pss-plugin-admin-area table.form-table tbody th {
+    text-align: left;
+    margin: 12px 0px;
+}
+@media only screen and (max-width: 782px) {
+    #pss-plugin-admin-area table.form-table tbody td {
+        text-align: right;
+    }
+}
+/* Set Font Family */
+#pss-plugin-admin-area {
+    font-family: var(--pss-plugin-font-text);
+    padding:32px;
+    font-size: 18px;
+}
+#pss-plugin-admin-area p {
+    max-width: 600px;
+    font-size: 16px;
+}
+#pss-plugin-admin-area h1, #pss-plugin-admin-area h2, #pss-plugin-admin-area h3, #pss-plugin-admin-area h4, #pss-plugin-admin-area h5 {
+    color:var(--pss-plugin-headlines);
+}
+/* Global Licensy Key */
+#pss-plugin-admin-area .pss-plugin-license-key input[type="text"] {
+    padding-left: 40px;
+    font-size: small;
+}
+#pss-plugin-admin-area .pss-plugin-license-key::before {
+    content: "\f112";
+    font-family: dashicons;
+    color: var(--pss-plugin-active);
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    position: absolute;
+    margin-left: 6px;
+    margin-top: 12px;
+}
+/* Input Text */
+#pss-plugin-admin-area input[type="text"] {
+    border-radius: 12px;
+    padding:4px;
+    border: none;
+    width: 320px;
+    margin: 6px 0;
+    box-shadow: 0px 0px 0px 2px var(--pss-plugin-disabled);
+    transition: box-shadow .3s ease-in-out;
+}
+#pss-plugin-admin-area input[type="text"]:focus, #pss-plugin-admin-area input[type="text"]:focus-visible, #pss-plugin-admin-area input[type="text"]:active {
+    box-shadow: 0px 0px 0px 2px var(--pss-plugin-active);
+    border: none;
+}
+#pss-plugin-admin-area input[type="text"]::placeholder {
+    color: var(--pss-plugin-disabled);
+}
+/* Select box */
+#pss-plugin-admin-area select {
+    border-radius: 12px;
+    padding: 4px;
+    border: none;
+    width: 320px;
+    margin: 6px 0;
+    box-shadow: 0px 0px 0px 2px var(--pss-plugin-disabled);
+    transition: box-shadow .3s ease-in-out;
+}
+#pss-plugin-admin-area select:focus, #pss-plugin-admin-area select:focus-visible, #pss-plugin-admin-area select:active {
+    box-shadow: 0px 0px 0px 2px var(--pss-plugin-active);
+    border: none;
+}
+/* Multi Select with Checkboxes */
+.pss-plugin-setting-choose-post-types div {
+    box-shadow: 0px 2px 6px -4px #2c33389c;
+}
+.pss-plugin-setting-choose-post-types div:last-child {
+    box-shadow: none;
+}
+.pss-plugin-setting-choose-post-types {
+    background-color: #fff;
+    color: #2c3338;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0px 0px 0px 2px var(--pss-plugin-disabled);
+    width: 296px;
+    margin: 6px 0;
+}
+.pss-plugin-setting-choose-post-types input {
+    display: none;
+}
+.pss-plugin-setting-choose-post-types div {
+    padding: 4px;
+}
+.pss-plugin-setting-choose-post-types input:checked + label::after {
+    content: '\f15e';
+    font-family: dashicons;
+    color: var(--pss-plugin-active);
+    margin-left: 20px;
+    display: inline-block;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+}
+/* Messages with dashicon */
+#pss-plugin-admin-area .pss-plugin-message {
+    margin-left: 30px;
+    font-size: 1.2em;
+    line-height: 1.1em;
+}
+#pss-plugin-admin-area .pss-plugin-message::before {
+    font-family: dashicons;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.9em;
+    position: absolute;
+    left: 28px;
+}
+/* Success */
+#pss-plugin-admin-area .pss-plugin-message.pss-plugin-success::before {
+    content: "\f15e";
+    color: var(--pss-plugin-active);
+}
+/* Warning */
+#pss-plugin-admin-area .pss-plugin-message.pss-plugin-warning::before {
+    content: "\f534";
+    color: var(--pss-plugin-warning);
+}
+/* Error */
+#pss-plugin-admin-area .pss-plugin-message.pss-plugin-error::before {
+    content: "\f335";
+    color: var(--pss-plugin-error);
+}
+/* Buttons */
+#pss-plugin-admin-area .pss-plugin-btn {
+    font-family: var(--pss-plugin-font-higlight);
+    border: initial !important;
+    width: max-content;
+    font-size: 18px !important;
+    padding: 8px 12px;
+    color: white !important;
+    background-color: var(--pss-plugin-active) !important;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    -webkit-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    border-radius: 30px !important;
+}
+#pss-plugin-admin-area .pss-plugin-btn .dashicons {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+#pss-plugin-admin-area a.pss-plugin-btn {
+    display: block;
+    text-decoration: none;
+}
+#pss-plugin-admin-area .pss-plugin-btn:hover {
+    -webkit-box-shadow: var(--pss-plugin-box-shadow);
+    -moz-box-shadow: var(--pss-plugin-box-shadow);
+    -ms-box-shadow: var(--pss-plugin-box-shadow);
+    -o-box-shadow: var(--pss-plugin-box-shadow);
+    box-shadow: var(--pss-plugin-box-shadow);
+}
+#pss-plugin-admin-area .pss-plugin-btn:visited,.pss-plugin-btn:focus {
+    text-decoration: none;
+    color: var(--pss-plugin-active);
+    outline: none;
+    border: none;
+}
+@media only screen and (max-width: 782px) {
+    #pss-plugin-admin-area a.pss-plugin-btn {
+        margin-left: auto;
+    }
+}
+/* Regen Button */
+#pss-plugin-admin-area .pss-plugin-regen-btn {
+    text-decoration: none;
+    display: block;
+    width: max-content;
+}
+#pss-plugin-admin-area .pss-plugin-regen-btn span {
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    transform-origin: center;
+    color: var(--pss-plugin-active);
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    transition: transform .5s ease-in-out;
+}
+#pss-plugin-admin-area .pss-plugin-regen-btn span:hover {
+    transform: rotate(-360deg);
+}
+/* Settings Page Switch */
+#pss-plugin-admin-area .pss-plugin-setting-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 32px;
+}
+#pss-plugin-admin-area .pss-plugin-setting-switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+#pss-plugin-admin-area .pss-plugin-setting-switch .pss-plugin-setting-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: solid 1px var(--pss-plugin-disabled);
+    background-color: white;
+    -webkit-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    border-radius: 20px !important;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+}
+#pss-plugin-admin-area .pss-plugin-setting-switch .pss-plugin-setting-slider:before {
+    position: absolute;
+    content: "";
+    height: 28px;
+    width: 28px;
+    left: 1px;
+    bottom: 1px;
+    background-color: var(--pss-plugin-disabled);
+    -webkit-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    border-radius: 50% !important;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s; 
+    transition: .3s;
+}
+#pss-plugin-admin-area .pss-plugin-setting-switch input:checked + .pss-plugin-setting-slider {
+    background-color: var(--pss-plugin-active);
+}
+#pss-plugin-admin-area .pss-plugin-setting-switch input:focus + .pss-plugin-setting-slider {
+    -webkit-box-shadow: 0 0 1px var(--pss-plugin-active);
+    -ms-box-shadow: 0 0 1px var(--pss-plugin-active);
+    box-shadow: 0 0 1px var(--pss-plugin-active);
+} 
+#pss-plugin-admin-area .pss-plugin-setting-switch input:checked + .pss-plugin-setting-slider:before {
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(28px);
+    transform: translateX(28px);
+    background-color: white;
+}
+/* Disabled Switch*/
+#pss-plugin-admin-area .pss-plugin-setting-switch input:disabled + .pss-plugin-setting-slider {
+    border-color: var(--pss-plugin-disabled);
+    opacity: .7;
+    cursor: not-allowed;
+}
+#pss-plugin-admin-area .pss-plugin-setting-switch input:disabled + .pss-plugin-setting-slider::before {
+    background-color: var(--pss-plugin-disabled);
+    opacity: .7;
+}
+/* Lists with input fields */
+#pss-plugin-admin-area .pss-plugin-list-wrapper .pss-plugin-list {
+    padding: 5px;
+    margin: 20px 0;
+}
+#pss-plugin-admin-area .pss-plugin-list-wrapper input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#pss-plugin-admin-area .pss-plugin-list-wrapper .pss-plugin-btn {
+    margin-left: auto;
+}
+#pss-plugin-admin-area .pss-plugin-list-wrapper .pss-plugin-list .pss-plugin-list-item {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: #79c3a7 1px solid;
+}
+#pss-plugin-admin-area .pss-plugin-list-wrapper .pss-plugin-list .pss-plugin-list-item .dashicons-trash {
+    color: var(--pss-plugin-error);
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    top: -3px;
+}
+#pss-plugin-admin-area .pss-plugin-input-error {
+    -webkit-box-shadow: 1px 1px 5px 1px var(--pss-plugin-error) !important;
+    -ms-box-shadow: 1px 1px 5px 1px var(--pss-plugin-error) !important;
+    box-shadow: 1px 1px 5px 1px var(--pss-plugin-error) !important;
+}
+/* List elements (ul, li) */
+#pss-plugin-admin-area ul.pss-plugin-ul {
+    list-style: initial;
+    padding: revert;
+}
+/* Droppdown Accordion */
+#pss-plugin-admin-area .pss-plugin-hidden-box {
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+    width: max-content;
+    -webkit-transition: max-height 500ms ease-in;
+    -moz-transition: max-height 500ms ease-in;
+    -ms-transition: max-height 500ms ease-in;
+    -o-transition: max-height 500ms ease-in;
+    transition: max-height 500ms ease-in;
+}
+#pss-plugin-admin-area .pss-plugin-drop-down {
+    display: block;
+    width: max-content;
+}
+#pss-plugin-admin-area .pss-plugin-drop-down .dashicons {
+    color: var(--pss-plugin-active);
+}
+#pss-plugin-admin-area .pss-plugin-open-hidden-box {
+    display: none;
+}
+#pss-plugin-admin-area .pss-plugin-open-hidden-box:checked + .pss-plugin-hidden-box {
+    padding: 0px 14px;
+    max-height: max-content;
+    -webkit-transition: max-height 400ms ease-out;
+    -moz-transition: max-height 400ms ease-out;
+    -ms-transition: max-height 400ms ease-out;
+    -o-transition: max-height 400ms ease-out;
+    transition: max-height 400ms ease-out;
+}

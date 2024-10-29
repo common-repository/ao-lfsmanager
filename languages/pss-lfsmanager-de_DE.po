@@ -1,0 +1,391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pss-lfsmanager-style\n"
+"POT-Creation-Date: 2022-09-02 08:53+0200\n"
+"PO-Revision-Date: 2022-09-02 08:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: DUDEMICH Consulting\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;__;_x;_e;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-pss-lfsmanager-admin.php:156
+msgid "Remove all the font imports from google."
+msgstr "Entfernen Sie alle Schriftartenimporte von Google."
+
+#: admin/class-pss-lfsmanager-admin.php:164
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin/class-pss-lfsmanager-admin.php:180
+msgid "In a secure future!."
+msgstr "In eine sichere Zukunft!."
+
+#: admin/class-pss-lfsmanager-admin.php:181
+msgid ""
+"Make your website DSGVO compliant by preventing external google fonts from "
+"being loaded."
+msgstr ""
+"Machen Sie Ihre Website DSGVO-konform, indem Sie verhindern, dass externe "
+"Google-Schriftarten geladen werden."
+
+#: admin/class-pss-lfsmanager-admin.php:182
+msgid "As long as you are logged in, all fonts will be loaded as usual."
+msgstr ""
+"Solange Sie eingeloggt sind, werden alle Schriften wie gewohnt geladen."
+
+#: admin/class-pss-lfsmanager-admin.php:186
+msgid "You need to remove some lines from your header files:"
+msgstr "Bitte entferne einige Links aus folgenden Dateien:"
+
+#: admin/class-pss-lfsmanager-admin.php:188
+msgid "File"
+msgstr "Datei"
+
+#: admin/class-pss-lfsmanager-admin.php:196
+msgid ""
+"If Google Fonts are still loading, please send a support mail and add the "
+"name of your current theme and the plugin version."
+msgstr ""
+"Wenn immer noch Google Fonts geladen werden, bitte sende uns eine Support-"
+"Email und füge den des genutzten Themas und die Plugin-Version hinzu."
+
+#: admin/class-pss-lfsmanager-admin.php:197
+msgid "Send Email"
+msgstr "E-Mail senden"
+
+#: admin/class-pss-lfsmanager-admin.php:224
+msgid ""
+"The Lite - Font & Style Manager plugin is the perfect solution for anyone "
+"who wants to escape the current wave of warnings regarding Google fonts!"
+msgstr ""
+"Das Lite - Font & Style Manager Plugin ist die perfekte Lösung für alle, die "
+"der aktuellen Abmahnwelle bezüglich Google Fonts entkommen wollen!"
+
+#: admin/class-pss-lfsmanager-admin.php:225
+msgid ""
+"The plugin automatically removes the Google Fonts and replaces them with "
+"fonts that are integrated in the theme or alternatively locally."
+msgstr ""
+"Das Plugin entfernt automatisch die Google Fonts und ersetzt sie durch "
+"Schriftarten, die im Theme oder alternativ lokal integriert sind."
+
+#: admin/class-pss-lfsmanager-admin.php:226
+msgid ""
+"Would you also like to improve your SEO and the performance of your website?"
+msgstr ""
+"Du möchtest zusätzlich dein SEO und die Performance deiner Webseite "
+"verbessern?"
+
+#: admin/class-pss-lfsmanager-admin.php:227
+msgid "Then take a look at the full version of the Font & Style Manager."
+msgstr "Dann schau dir die Vollversion des Font & Style Manager an."
+
+#: admin/class-pss-lfsmanager-admin.php:255
+msgid "Lite - Font & Style Manager - DSGVO/GDPR"
+msgstr "Lite - Font & Style Manager - DSGVO/GDPR"
+
+#: admin/class-pss-lfsmanager-admin.php:255
+msgid "Font & Style"
+msgstr "Font & Style"
+
+#: admin/class-pss-lfsmanager-admin.php:273
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/partials/pss-lfsmanager-admin-display.php:6
+msgid "Creating trust together..."
+msgstr "Gemeinsam Vertrauen schaffen…"
+
+#: admin/partials/pss-lfsmanager-admin-display.php:14
+msgid "Save all changes"
+msgstr "Alle Änderungen Speichern"
+
+#~ msgid "Enter your license key."
+#~ msgstr "Geben Sie Ihren Lizenzschlüssel ein."
+
+#~ msgid "Enable to unite all css files to a single one."
+#~ msgstr "Ermöglicht es, alle css-Dateien zu einer einzigen zu vereinen."
+
+#~ msgid "Enable the style cache."
+#~ msgstr "Aktivieren Sie den Style-Cache."
+
+#~ msgid "Regenerate Styles (Add changes zu the cached file)."
+#~ msgstr ""
+#~ "Regeneriere Styles (Änderungen zur zwischengespeicherten Datei "
+#~ "hinzufügen)."
+
+#~ msgid ""
+#~ "The strict mode will remove Fonts from header and footer, please follow "
+#~ "installation."
+#~ msgstr ""
+#~ "Der strikte Modus entfernt Schriften aus dem Header und dem Footer, bitte "
+#~ "folge der Installationsanleitung."
+
+#~ msgid "Developer Options"
+#~ msgstr "Entwickler Optionen"
+
+#~ msgid ""
+#~ "Add handles (its the name when style will be regeistered) to exclude them "
+#~ "from combining."
+#~ msgstr ""
+#~ "Handles (sind die Namen, welche man der Datei gibt wenn sie registriert "
+#~ "wird) hinzufügen, um sie auszuschließen. Diese werden dann weiter "
+#~ "unabhängig geladen."
+
+#~ msgid "Add lines to ignore them from css files."
+#~ msgstr "Zeilen hinzufügen, um sie aus css-Dateien zu ignorieren."
+
+#~ msgid ""
+#~ "You are not using a child theme. This can be very expensive in future, "
+#~ "please go to "
+#~ msgstr ""
+#~ "Sie verwenden kein Child-Theme. Dies kann in Zukunft sehr teuer werden, "
+#~ "bitte gehen Sie zu "
+
+#~ msgid "Visit aohipa website "
+#~ msgstr "Besuchen Sie die aohipa-Website "
+
+#~ msgid "Style Manager"
+#~ msgstr "Style Manager"
+
+#~ msgid ""
+#~ "Raise the page speed and SEO-score by unite all CSS-files to a single one."
+#~ msgstr ""
+#~ "Erhöhen Sie die Seitengeschwindigkeit und den SEO-Score, indem Sie alle "
+#~ "CSS-Dateien in eine Einzige zusammenfassen."
+
+#~ msgid "Here you have advanced options to manipulate functionality."
+#~ msgstr "Hier sind zusätzliche Optionen die Funktionen zu beeinflussen."
+
+#~ msgid "Font Manager"
+#~ msgstr "Font Manager"
+
+#~ msgid "Strict Mode is set up successfully"
+#~ msgstr "Strick Mode wurde erfolgreich installiert"
+
+#~ msgid "I have made changes in following files."
+#~ msgstr "Ich habe Änderungen in folgenden Dateien vorgenommen."
+
+#~ msgid "Replaced links in: "
+#~ msgstr "Ersetzte Links in: "
+
+#~ msgid "Replaced functions in: "
+#~ msgstr "Ersetzte Funktionen in: "
+
+#~ msgid "To undo those changes, deactivate the strict mode."
+#~ msgstr ""
+#~ "Um die Änderungen rückgängig zu machen, deaktiviere den strikten Modus."
+
+#~ msgid "The strict mode can cause issues. Please test it before using."
+#~ msgstr ""
+#~ "Der strikte Modus kann zu Problemen führen, bitte teste ihn vor der "
+#~ "Nutzung."
+
+#~ msgid "Regenerate Styles"
+#~ msgstr "Regeneriere Styles"
+
+#~ msgid "Please activate the Cache."
+#~ msgstr "Bitte aktiviere den Cache."
+
+#~ msgid "Add a new item to exclude"
+#~ msgstr "Fügen Sie ein neues auszuschließendes Element hinzu"
+
+#~ msgid "Add item"
+#~ msgstr "Element hinzufügen"
+
+#~ msgid "Add a new item to ignore"
+#~ msgstr "Fügen Sie ein neues ignorierendes Element hinzu"
+
+#~ msgid "License Key"
+#~ msgstr "Lizenzschlüssel"
+
+#~ msgid ""
+#~ "The Font & Style Manager plugin is the perfect solution for anyone who "
+#~ "wants to escape the current wave of warnings regarding Google fonts! The "
+#~ "plugin automatically removes the Google Fonts and replaces them with "
+#~ "fonts that are integrated in the theme or alternatively locally. So you "
+#~ "can be sure that your site is legally sound. Compatibility with page "
+#~ "builders and common themes is guaranteed!"
+#~ msgstr ""
+#~ "Das Plugin Font & Style Manager ist die perfekte Lösung für alle, die "
+#~ "sich der aktuellen Abmahnwelle, bezüglich Google-Schriftarten entziehen "
+#~ "möchten! Das Plugin entfernt die Google Fonts automatisch und ersetzt "
+#~ "diese durch Schriftarten, die im Theme oder alternativ lokal eingebunden "
+#~ "sind. So können Sie sicher sein, dass Ihre Seite rechtlich einwandfrei "
+#~ "ist. Die Kompatibilität zu Page Buildern und gängigen Themes ist "
+#~ "gewährleistet!"
+
+#~ msgid ""
+#~ "Font & Style Manager is a lightweight plugin and very easy to use once "
+#~ "installed. In addition, the plugin in the basic edition offers many other "
+#~ "useful functions, such as merging CSS files, providing a style cache that "
+#~ "caches CSS files to increase the performance of your site. In addition, "
+#~ "Font & Style Manager increases the SEO-friendliness of your site!"
+#~ msgstr ""
+#~ "Font & Style Manager ist ein schlankes Plugin und nach der Installation "
+#~ "sehr einfach zu bedienen. Darüber hinaus bietet das Plugin in der Basis-"
+#~ "Edition, viele weitere nützliche Funktionen, wie das Zusammenführen von "
+#~ "CSS-Dateien, die Bereitstellung eines Style Caches, der CSS-Dateien in "
+#~ "einen Zwischenspeicher legt, um die Performance Ihrer Seite zu erhöhen. "
+#~ "Zudem wird durch Font & Style Manager die SEO-Freundlichkeit Ihrer Seite "
+#~ "erhöht!"
+
+#~ msgid ""
+#~ "In the Font & Style Manager Agency version, you also have control over "
+#~ "which files are to be merged and you also have the option of manually "
+#~ "deleting passages from files."
+#~ msgstr ""
+#~ "In der Font & Style Manager Agency-Version erhalten Sie zusätzlich die "
+#~ "Kontrolle darüber, welche Dateien konkret vereint werden sollen und Sie "
+#~ "haben auch die Möglichkeit noch manuell Passagen aus Dateien heraus zu "
+#~ "löschen."
+
+#~ msgid ""
+#~ "Download our Font & Style Manager plugin now to optimize your website in "
+#~ "a way that is safe from warnings and future-oriented."
+#~ msgstr ""
+#~ "Laden Sie sich jetzt unser Plugin Font & Style Manager herunter, um Ihre "
+#~ "Webseite abmahnsicher und zukunftsorientiert zu optimieren."
+
+#~ msgid "Compatibility with Page Buildern:"
+#~ msgstr "Kompatiblität mit Page Buildern:"
+
+#~ msgid "Compatibility with Themes:"
+#~ msgstr "Kompatiblität mit Themes:"
+
+#~ msgid "Style Font & Style Manager"
+#~ msgstr "Style Font & Style Manager"
+
+#~ msgid "Font Font & Style Manager"
+#~ msgstr "Font Font & Style Manager"
+
+#~ msgid "Style Font & Style Manager Settings"
+#~ msgstr "Aohipa Font & Style Manager Einstellungen"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Installation was successfully."
+#~ msgstr "Installation war erfolgreich."
+
+#~ msgid ""
+#~ "Please replace \"wp_head()\" with this peace of code, in the header.php "
+#~ "inside your child theme."
+#~ msgstr ""
+#~ "Bitte fügen Sie den folgenden code im Child Theme in die header.php an "
+#~ "Stelle des „wp_head()“ ein."
+
+#~ msgid ""
+#~ "The file not exstits, please copy the \"header.php\" from the parent "
+#~ "theme to the child theme."
+#~ msgstr ""
+#~ "Die Datei ist nicht vorhanden, bitte kopieren Sie die \"header.php\" vom "
+#~ "Parent-Theme in das Child-Theme."
+
+#~ msgid ""
+#~ "Please replace \"wp_footer()\" with this peace of code, in the footer.php "
+#~ "inside your child theme."
+#~ msgstr ""
+#~ "Bitte fügen Sie den folgenden code im Child Theme in die footer.php an "
+#~ "Stelle des „wp_footer()“ ein."
+
+#~ msgid ""
+#~ "The file not exstits, please copy the \"footer.php\" from the parent "
+#~ "theme to the child theme."
+#~ msgstr ""
+#~ "Die Datei ist nicht vorhanden, bitte kopieren Sie die „footer.php“ vom "
+#~ "Parent-Theme in das Child-Theme."
+
+#~ msgid "Please check out your front page after adding the code."
+#~ msgstr "Bitte prüfe deine Startseite, nach dem Einfügen des Codes."
+
+#~ msgid "Please enable to unite css files."
+#~ msgstr "Bitte aktiviere das Vereinen der CSS Dateien."
+
+#~ msgid "Please activate font removing."
+#~ msgstr "Bitte aktiviere das entfernen der Schriften."
+
+#~ msgid "The plugin prevents the loading of external google fonts."
+#~ msgstr "Das Plugin verhindert das Laden externer google Schriften."
+
+#~ msgid ""
+#~ "This is how you avoid the big wave of warnings and improve your SEO at "
+#~ "the same time."
+#~ msgstr ""
+#~ "So entziehen Sie sich der großen Abmahnwelle und verbessen nebenbei noch "
+#~ "Ihr SEO."
+
+#~ msgid ""
+#~ "In addition, by combining CSS files into a minimized file, performance is "
+#~ "increased."
+#~ msgstr ""
+#~ "Außerdem wird durch das Vereinen von CSS-Dateien zu einer minimierten "
+#~ "Datei, die Performance gesteigert."
+
+#~ msgid ""
+#~ "The minified CSS file can be cached, so it won't be regenerated every "
+#~ "time."
+#~ msgstr ""
+#~ "Die minimierten CSS-Datei kann gecached werden, so wird sie nicht jedes "
+#~ "Mal neu generiert."
+
+#~ msgid "This plugin is very lightweight and very easy to use once installed."
+#~ msgstr ""
+#~ "Dieses Plugin ist sehr schlank und nach der Installation sehr einfach zu "
+#~ "bedienen."
+
+#~ msgid "Do not lose any time and optimize your website with us now."
+#~ msgstr ""
+#~ "Verlieren Sie keine Zeit und optimieren Sie jetzt Ihre Webseite mit uns."
+
+#~ msgid "Beaver Builder"
+#~ msgstr "Beaver Builder"
+
+#~ msgid ""
+#~ "Please replace \"wp_head();\" and \"FLTheme::head();\" with the following "
+#~ "peaces of code, in the header.php inside your child theme."
+#~ msgstr ""
+#~ "Bitte fügen Sie die folgenden Codeschnipsel im Child Theme, in die header."
+#~ "php, an Stelle des „wp_head();“ und „FLTheme::head();“ ein."
+
+#~ msgid ""
+#~ "Please replace \"wp_footer();\" and \"FLTheme::footer_code();\" with the "
+#~ "following peaces of code, in the footer.php inside your child theme."
+#~ msgstr ""
+#~ "Bitte fügen Sie die folgenden Codeschnipsel im Child Theme, in die footer."
+#~ "php, an Stelle des „wp_footer();“ und „FLTheme::footer_code();“ ein."
+
+#~ msgid "Aohipa Font & Style Manager"
+#~ msgstr "Aohipa Font & Style Manager"
+
+#~ msgid "This request is not allowed"
+#~ msgstr "Diese Anfrage ist nicht erlaubt"
+
+#~ msgid ""
+#~ "The plugin prevents the loading of external google fonts. This is how you "
+#~ "avoid the big wave of warnings and improve your SEO at the same time. In "
+#~ "addition, by combining CSS files into a minimized file, performance is "
+#~ "increased."
+#~ msgstr ""
+#~ "Das Plugin verhindert das Laden externer google Schriften. So entziehen "
+#~ "Sie sich der großen Abmahnwelle und verbessen nebenbei noch Ihr SEO. "
+#~ "Außerdem wird durch das Vereinen von CSS-Dateien zu einer minimierten "
+#~ "Datei, die Performance gesteigert.  "
+
+#~ msgid "following..."
+#~ msgstr "Kommt noch…"
+
+#~ msgid "If you dont use a child theme, please go to. "
+#~ msgstr "Wenn Sie noch kein Child Theme nutzen, folge bitte diesem Link."
+
+#, fuzzy
+#~| msgid "Regenerate Styles"
+#~ msgid "Regenerate Styles."
+#~ msgstr "Regeneriere Styles"
